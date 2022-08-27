@@ -9,6 +9,7 @@ type TChildrenProps = {
 interface ICollapse {
   children: (props: TChildrenProps) => any;
 }
+
 const CollapseContainer = ({ children }: ICollapse) => {
   const [activeId, stActiveId] = useState<any>(null);
   const openCollapse = (index: number) => () => {

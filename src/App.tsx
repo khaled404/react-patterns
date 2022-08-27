@@ -1,4 +1,5 @@
 import Header from "./components/header";
+import ProviderPattern from "./components/provider-pattern";
 import {
   CollapseContainer,
   CollapseItem,
@@ -27,7 +28,8 @@ function App() {
         }
       </CollapseContainer>
 
-      <Header title="render props pattern" />
+      <Header title="Provider Pattern" />
+      <ProviderPattern />
     </div>
   );
 }
